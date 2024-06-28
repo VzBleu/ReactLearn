@@ -9,7 +9,6 @@ body {
 }
 
 nav {
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,4 +38,30 @@ nav {
     font-size: 18px;
     font-weight: 500;
     color: #DEEBF8;
+}
+
+.mainContentDiv {
+    padding: 30px;
+    background-color: #282D35;
+    height: 450px;
+}
+
+.mainContentDiv>h1,
+ul {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+}
+
+.mainContentDiv>h1 {
+    font-size: 35px;
+}
+
+.mainContentDiv>ul {
+    width: 450px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.mainContentDiv>ul>li {
+    margin-bottom: 20px;
 }
