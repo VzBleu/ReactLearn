@@ -44,6 +44,9 @@ nav {
     padding: 30px;
     background-color: #282D35;
     height: 450px;
+    background-image: url('/src/Images/reactjs-icon\ 2.png');
+    background-repeat: no-repeat;
+    background-position: 139% 65%;
 }
 
 .mainContentDiv>h1,
@@ -63,5 +66,11 @@ ul {
 }
 
 .mainContentDiv>ul>li {
+    margin-bottom: 20px;
+}
+
+.mainContentDiv>ul>li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
     margin-bottom: 20px;
 }
