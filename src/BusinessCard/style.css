@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-color: #23252C;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.cardDiv {
+    border-radius: 10px;
+    height: 780px;
+    width: 317px;
+}
+
+/*PICTURE*/
+.picture {
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    background-color: #1A1B21;
+    margin-bottom: -4px;
+}
+
+/*PRIMARY INFO*/
+
+.primaryInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1A1B21;
+    margin-bottom: -22px;
+}
+
+.primaryInfo>h1 {
+    font-size: 20px;
+    color: white;
+    margin: 30px auto 0 auto;
+}
+
+.primaryInfo>p {
+    font-size: 20px;
+    color: #F3BF99;
+    font-size: 17px;
+    margin: 10px auto 0 auto;
+}
+
+.primaryInfo>small {
+    font-size: 20px;
+    color: #F5F5F5;
+    font-size: 13px;
+    margin: 10px auto 0 auto;
+}
+
+/*CONTACTS*/
+
+.contactsDiv {
+    padding-top: 40px;
+    background-color: #1A1B21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: -22px;
+}
+
+.contactsDiv>button {
+    height: 34px;
+    width: 115px;
+    border-radius: 6px;
+    border-style: none;
+}
+
+.contactsDiv>button>i {
+    margin-right: 5px;
+}
+
+.linkedInBtn {
+    background-color: #5093E2;
+    color: white;
+}
+
+/*SECONDARY INFO*/
+.secondaryInfoDiv {
+    background-color: #1A1B21;
+    padding: 20px 34px 10px 34px;
+    color: white;
+}
+
+.secondaryInfoDiv>h3 {
+    margin-bottom: 10px;
+}
+
+.secondaryInfoDiv>p {
+    font-size: 12px;
+}
+
+/*FOOTER*/
+.footerDiv {
+    background-color: #161619;
+    height: 47.3px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
