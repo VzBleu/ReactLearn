@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+#root {
+    border: 1px solid black;
+    height: 600px;
+    width: 600px;
+}
+
+nav {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #21222A;
+}
+
+.logoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoImg {
+    width: 30px;
+}
+
+.logoName {
+    margin: 0 0 0 10px;
+    font-family: "Inter", sans-serif;
+    color: #61DAFB;
+}
+
+.navDescription {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #DEEBF8;
+}
