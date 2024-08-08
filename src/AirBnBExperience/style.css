@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background-color: gray;
+    font-family: "Poppins", sans-serif;
+}
+
+.airBnBAppDiv {
+    border-radius: 10px;
+    background-color: white;
+    width: 550px;
+    height: 860px;
+}
+
+.airBnbNav {
+    border-radius: 10px 10px 0 0;
+    height: 70px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+    box-shadow: 0 3px 6px rgb(197, 197, 197);
+}
+
+.heroDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.heroDiv>img {
+    width: 395.91px;
+    margin-bottom: 2%;
+}
+
+.heroDivWords {
+    padding-left: 5%;
+}
+
+.heroDivWords>div {
+    width: 60%;
+}
+
+.heroDivWords>div>h1 {
+    font-size: 32px;
+    margin-bottom: 3%;
+}
+
+.heroDivWords>div>p {
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.cardsDiv {
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    gap: 4%;
+}
+
+.cardDiv {
+    width: 176px;
+    margin-top: 6%;
+}
+
+.cardDiv>.soldOut {
+    position: absolute;
+    margin: .5%;
+    font-size: .9rem;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0px 5px 0px 5px;
+}
+
+.cardDiv>img {
+    width: 176px;
+}
+
+.ratingDiv {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.ratingDiv>img {
+    width: 14px;
+}
+
+.ratingDiv>p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.ratingDiv>.idkNum {
+    color: #918E9B;
+    font-weight: 200;
+}
+
+.ratingDiv>.country {
+    color: #918E9B;
+    font-weight: 200;
+}
+
+.cardDiv>p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 10px;
+    margin-top: 5px;
+}
